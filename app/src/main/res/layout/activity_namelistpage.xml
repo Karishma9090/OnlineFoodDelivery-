@@ -3,32 +3,433 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="@drawable/fbg"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".namelistpage">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/frestaurant"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/resturant"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/frestaurantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Wave"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/frestaurantRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5 (785+)"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/frestaurantCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Indian, Combo Beverages"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/frestaurantDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34 mins"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/l1"
         android:orientation="horizontal">
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/thewave"
-            />
-        <TextView
-            android:id="@+id/rname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="THE WAVE"
-            android:textStyle="bold"
-            android:gravity="center"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cakes,Sweets,Brownie,Coffee,Italian Pasta"
             />
 
     </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_below="@id/l1">
+
+        <ImageView
+            android:id="@+id/restaurant"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/friendrestro"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/restaurantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/restaurantRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5 (785+)"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/restaurantCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Indian, Combo Beverages"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/restaurantDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34 mins"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_below="@id/l2">
+
+        <ImageView
+            android:id="@+id/res"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/familyresturant"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5 (785+)"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/rCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Indian, Combo Beverages"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/rDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34 mins"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_below="@id/l3">
+
+        <ImageView
+            android:id="@+id/Restaurant"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/barandrestro"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/RestaurantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/RestaurantRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5 (785+)"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/RestaurantCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Indian, Combo Beverages"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/RestaurantDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34 mins"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_below="@id/l4">
+
+        <ImageView
+            android:id="@+id/fifthrestaurant"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/cafe"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fifthrestaurantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fifthrestaurantRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5 (785+)"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/fifthrestaurantCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Indian, Combo Beverages"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/fifthrestaurantDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34 mins"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_below="@id/l5">
+
+        <ImageView
+            android:id="@+id/sixthrestaurant"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/threechef"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sixthrestaurantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sixthrestaurantRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5 (785+)"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/sixthrestaurantCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Indian, Combo Beverages"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/sixthrestaurantDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34 mins"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_below="@id/l6">
+
+        <ImageView
+            android:id="@+id/srestaurant"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/myway"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/srestaurantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/srestaurantRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5 (785+)"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/srestaurantCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Indian, Combo Beverages"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/srestaurantDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34 mins"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="350dp"
+        android:text="home"/>
+
+
+
+
+
+
+
+
+
+
 
 </RelativeLayout>
