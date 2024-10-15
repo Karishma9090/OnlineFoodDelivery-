@@ -49,7 +49,7 @@
                 android:id="@+id/frestaurantCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="South Indian, Combo Beverages"
+                android:text="North Indian, Combo Beverages"
                 android:textSize="14sp" />
 
             <TextView
@@ -102,7 +102,7 @@
                 android:id="@+id/restaurantName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Name"
+                android:text="Royal India Cuisine"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -118,7 +118,7 @@
                 android:id="@+id/restaurantCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="South Indian, Combo Beverages"
+                android:text="Indian, Combo Beverages"
                 android:textSize="14sp" />
 
             <TextView
@@ -159,7 +159,7 @@
                 android:id="@+id/rName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Name"
+                android:text="Brew Crew"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -175,7 +175,7 @@
                 android:id="@+id/rCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="South Indian, Combo Beverages"
+                android:text="Barista style,Coffee Beverages"
                 android:textSize="14sp" />
 
             <TextView
@@ -216,7 +216,7 @@
                 android:id="@+id/RestaurantName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Name"
+                android:text="Friends Club"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -232,7 +232,7 @@
                 android:id="@+id/RestaurantCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="South Indian, Combo Beverages"
+                android:text="Bar With Restaurant, Combo Beverages"
                 android:textSize="14sp" />
 
             <TextView
@@ -273,7 +273,7 @@
                 android:id="@+id/fifthrestaurantName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Name"
+                android:text="Crazy Grill"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -289,7 +289,7 @@
                 android:id="@+id/fifthrestaurantCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="South Indian, Combo Beverages"
+                android:text="Indian Barbeque, Combo Beverages"
                 android:textSize="14sp" />
 
             <TextView
@@ -330,7 +330,7 @@
                 android:id="@+id/sixthrestaurantName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Name"
+                android:text="Bawarchi AC family Resturant"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -346,7 +346,7 @@
                 android:id="@+id/sixthrestaurantCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="South Indian, Combo Beverages"
+                android:text="Indian Masala , Combo Beverages"
                 android:textSize="14sp" />
 
             <TextView
@@ -387,7 +387,7 @@
                 android:id="@+id/srestaurantName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Name"
+                android:text="The Beanary"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -403,7 +403,7 @@
                 android:id="@+id/srestaurantCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="South Indian, Combo Beverages"
+                android:text="Indian Flavoured Cafe and Rstro, Combo Beverages"
                 android:textSize="14sp" />
 
             <TextView
