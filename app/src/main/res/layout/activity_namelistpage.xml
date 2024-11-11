@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:background="@drawable/fbg"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".namelistpage">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
         android:id="@+id/l1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,17 +71,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/l1"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-
-    </LinearLayout>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/l2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -415,12 +409,66 @@
                 android:textColor="@android:color/darker_gray" />
         </LinearLayout>
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_below="@id/l7">
+
+        <ImageView
+            android:id="@+id/sevrestaurant"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/myway"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sevrestaurantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Beanary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sevrestaurantRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5 (785+)"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/sevrestaurantCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indian Flavoured Cafe and Rstro, Combo Beverages"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/sevrestaurantDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34 mins"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+    </LinearLayout>
+
     <Button
-        android:id="@+id/btn"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="350dp"
-        android:text="home"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="button"/>
 
 
 
@@ -431,5 +479,6 @@
 
 
 
+</LinearLayout>
 
-</RelativeLayout>
+</ScrollView>
